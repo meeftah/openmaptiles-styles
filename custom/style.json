@@ -1358,7 +1358,7 @@
       "filter": ["==", "kind", "address"],
       "layout": {
         "symbol-placement": "point",
-        "text-font": ["Open Sans Italic"],
+        "text-font": ["Open Sans Regular"],
         "text-field": ["get", "addr_housenumber"],
         "text-size": 12
       },
@@ -1377,7 +1377,7 @@
       "filter": ["in", "kind", "river", "stream"],
       "layout": {
         "symbol-placement": "line",
-        "text-font": ["Open Sans Italic"],
+        "text-font": ["Open Sans Regular"],
         "text-field": [
           "case",
           [
@@ -1996,7 +1996,7 @@
       "source-layer": "water",
       "filter": ["in", "kind", "sea", "ocean", "bay", "strait", "fjord"],
       "layout": {
-        "text-font": ["Open Sans Italic"],
+        "text-font": ["Open Sans Regular"],
         "text-field": [
           "case",
           [
@@ -2299,7 +2299,7 @@
       "source-layer": "earth",
       "filter": ["in", "kind", "island"],
       "layout": {
-        "text-font": ["Open Sans Italic"],
+        "text-font": ["Open Sans Regular"],
         "text-field": [
           "case",
           [
@@ -2603,7 +2603,7 @@
       "source-layer": "water",
       "filter": ["in", "kind", "lake", "water"],
       "layout": {
-        "text-font": ["Open Sans Italic"],
+        "text-font": ["Open Sans Regular"],
         "text-field": [
           "case",
           [
@@ -2935,7 +2935,7 @@
           ]
         ],
         "text-field": ["get", "shield_text"],
-        "text-font": ["Open Sans Semibold"],
+        "text-font": ["Open Sans Regular"],
         "text-size": 8,
         "icon-size": 0.8,
         "symbol-placement": "line",
@@ -4634,7 +4634,7 @@
         "text-font": [
           "case",
           ["<=", ["get", "min_zoom"], 5],
-          ["literal", ["Open Sans Semibold"]],
+          ["literal", ["Open Sans Regular"]],
           ["literal", ["Open Sans Regular"]]
         ],
         "symbol-sort-key": [
@@ -4763,7 +4763,7 @@
           ["coalesce", ["get", "name:en"], ["get", "name:en"]],
           {}
         ],
-        "text-font": ["Open Sans Semibold"],
+        "text-font": ["Open Sans Regular"],
         "text-size": [
           "interpolate",
           ["linear"],
