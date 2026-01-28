@@ -4822,5 +4822,8 @@
   ],
   "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
   "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
-  "id": "i8ecggx"
+  "id": "i8ecggx",
+  "metadata": {
+    "maputnik:renderer": "mlgljs"
+  }
 }
