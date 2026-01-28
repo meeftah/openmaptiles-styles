@@ -1,5 +1,4 @@
 {
-  "id": "i8ecggx",
   "version": 8,
   "sources": {
     "custom": {
@@ -8,8 +7,6 @@
       "url": "pmtiles://https://demo-bucket.protomaps.com/v4.pmtiles"
     }
   },
-  "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
-  "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -4821,5 +4818,8 @@
         "text-halo-width": 1
       }
     }
-  ]
+  ],
+  "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
+  "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
+  "id": "i8ecggx"
 }
