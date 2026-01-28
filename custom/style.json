@@ -867,7 +867,7 @@
           11,
           "#ebebeb",
           16,
-          "#ffffff"
+          "#d7dfe5"
         ],
         "line-width": [
           "interpolate",
@@ -932,7 +932,6 @@
         ["==", "kind", "major_road"]
       ],
       "paint": {
-        "line-color": "#ffffff",
         "line-width": [
           "interpolate",
           ["exponential", 1.6],
@@ -945,7 +944,8 @@
           3,
           18,
           13
-        ]
+        ],
+        "line-color": "#d7dfe5"
       }
     },
     {
@@ -3238,7 +3238,9 @@
             ]
           ]
         ],
-        "text-size": 12
+        "text-size": 12,
+        "visibility": "visible",
+        "symbol-avoid-edges": false
       },
       "paint": {
         "text-color": "#383838",
@@ -4733,10 +4735,11 @@
           8,
           ["literal", ["center"]]
         ],
-        "text-radial-offset": 0.3
+        "text-radial-offset": 0.3,
+        "text-transform": "none"
       },
       "paint": {
-        "text-color": "#5c5c5c",
+        "text-color": "#2b2c30",
         "text-halo-color": "#e0e0e0",
         "text-halo-width": 1
       }
