@@ -134,7 +134,7 @@
       "source": "custom",
       "source-layer": "landuse",
       "filter": ["==", "kind", "hospital"],
-      "paint": { "fill-color": "#e4dad9" }
+      "paint": { "fill-color": "#f7f6f6" }
     },
     {
       "id": "landuse_industrial",
@@ -150,7 +150,7 @@
       "source": "custom",
       "source-layer": "landuse",
       "filter": ["in", "kind", "school", "university", "college"],
-      "paint": { "fill-color": "#e4ded7" }
+      "paint": { "fill-color": "#f7f6f6" }
     },
     {
       "id": "landuse_beach",
@@ -4821,5 +4821,8 @@
   ],
   "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
   "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
-  "id": "i8ecggx"
+  "id": "i8ecggx",
+  "metadata": {
+    "maputnik:renderer": "mlgljs"
+  }
 }
