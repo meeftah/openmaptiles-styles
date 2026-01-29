@@ -1542,30 +1542,56 @@
       "type": "symbol",
       "source": "custom",
       "source-layer": "pois",
+      "minzoom": 14,
       "layout": {
-        "text-field": ["get", "name"],
-        "text-font": ["Open Sans Regular"],
-        "text-size": 14,
         "icon-image": [
           "match",
           ["get", "kind"],
+          "restaurant",
+          "restaurant-11",
+          "cafe",
+          "restaurant-11",
+          "fast_food",
+          "restaurant-11",
+          "school",
+          "college-11",
+          "university",
+          "college-11",
+          "hospital",
+          "hospital-11",
+          "pharmacy",
+          "pharmacy-11",
+          "bank",
+          "bank-11",
+          "fuel",
+          "fuel-11",
+          "parking",
+          "parking-11",
+          "bus_stop",
+          "bus-11",
           "station",
+          "rail-11",
           "train_station",
-          ["get", "kind"]
+          "rail-11",
+          "airport",
+          "airport-11",
+          "marker-11"
         ],
         "icon-size": 1,
-        "text-offset": [0, 1.2],
-        "text-anchor": "top",
         "icon-allow-overlap": false,
+
+        "text-field": ["get", "name"],
+        "text-font": ["Open Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 1.1],
+        "text-anchor": "top",
         "text-optional": true
       },
       "paint": {
-        "text-color": "#000000",
+        "text-color": "#2b2c30",
         "text-halo-color": "#ffffff",
-        "text-halo-width": 2
-      },
-      "maxzoom": 24,
-      "minzoom": 10
+        "text-halo-width": 1.5
+      }
     },
     {
       "id": "places_subplace",
