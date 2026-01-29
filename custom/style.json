@@ -1852,7 +1852,7 @@
       }
     }
   ],
-  "sprite": "https://demotiles.maplibre.org/sprites/sprite",
+  "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
   "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
   "id": "i8ecggx"
 }
